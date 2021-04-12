@@ -1,0 +1,17 @@
+{
+  "name": "dsimms-tax-calc",
+  "version": "1.0.2",
+  "description": "Check how much money you'll pay in tax and take home every month",
+  "main": "bin/index.js",
+  "bin": {
+    "tax": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Simms",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
